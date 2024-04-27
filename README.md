@@ -1,6 +1,8 @@
 # Vision-Based Fire and Smoke Detection System
  The aim of this project is real-time and accurate identification of fire and smoke occurrences to enhance disaster management and emergency response strategies.Utilized Convolutional Neural Networks (CNNs) with InceptionV3 and AlexNet architectures, along with data preprocessing, data augmentation, multiclass classification with softmax, ReLU activation, evaluation metrics such as accuracy, and frameworks like Keras and TensorFlow for efficient model development and deployment.
 
+<img width="929" alt="Screenshot 2024-04-27 212759" src="https://github.com/Abhishek-Raj-Chauhan/Vision-Based-Fire-and-Smoke-Detection-System/assets/100334669/5dc952fe-d091-4aa2-98fe-d53fdacfdecc">
+
 # Proposed Methodology:
 
 Dataset collection is an essential process that involves gathering relevant data to train a model for a specific task. In this process, various techniques are used to collect data from various sources, online
