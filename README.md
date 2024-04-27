@@ -16,3 +16,15 @@ Machine learning algorithm such as convolutional neural networks (CNNs) are comm
 image recognition tasks, such as fire and smoke detection. It is trained using the cleaned dataset to identify patterns and features that distinguish fire and smoke from non-fire and smoke images.
 Validation and testing sets have been combined into one. Our dataset largely consists of three classes.
 Fire, Neutral, and Smoke are them. Each class has approximately 100 images for testing and over 900 images for training.
+
+# Architectural Framework
+
+The proposed architecture for fire and smoke detection leverages the Inception V3 convolutional neural network (CNN), a robust and efficient architecture renowned for image recognition tasks. This architecture is divided into two primary components: the convolutional base and the classification head. Inception-v3 brings several notable enhancements to the table, including the adoption of Label Smoothing, Factorized 7 x 7 convolutions, and the incorporation of an auxiliary classifier to disseminate label information deeper into the network. Additionally, batch normalization is employed for layers in the side head, contributing to the overall effectiveness of the architecture.
+
+Convolutional Base: The convolutional base of Inception V3 consists of multiple layers that extract relevant features from input images. It includes convolutional layers arranged hierarchically to learn features at different levels of abstraction. Lower-level layers capture basic features like edges and corners, while higher- level layers identify complex patterns and textures. Pooling layers are used to downsample feature maps and reduce spatial dimensions.
+
+Classification Head: The classification head follows the convolutional base and is responsible for the final classification of images. It starts with a global average pooling layer to compute the average of feature maps across spatial dimensions. A dense layer follows, performing the actual classification. 
+
+Rectified Linear Unit (ReLU) activation introduces non-linearity to capture complex relationships. Softmax activation produces a probability distribution over classes, determining the class with the highest probability.
+
+ReLU Activation: Rectified Linear Unit (RELU) is a very effective and simple activation function; it acts as a nonlinear activation function and linear activation function. As it returns the value provided as input without any transformation or returns 0 if the input value is 0 or less. It computationally defined as equation.
