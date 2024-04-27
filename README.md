@@ -21,6 +21,8 @@ Fire, Neutral, and Smoke are them. Each class has approximately 100 images for t
 
 # Architectural Framework
 
+![20BCI0161_VL2023240104782_PE00kkkk3](https://github.com/Abhishek-Raj-Chauhan/Vision-Based-Fire-and-Smoke-Detection-System/assets/100334669/2a73c204-398c-4dec-9a35-f783a168944e)
+
 The proposed architecture for fire and smoke detection leverages the Inception V3 convolutional neural network (CNN), a robust and efficient architecture renowned for image recognition tasks. This architecture is divided into two primary components: the convolutional base and the classification head. Inception-v3 brings several notable enhancements to the table, including the adoption of Label Smoothing, Factorized 7 x 7 convolutions, and the incorporation of an auxiliary classifier to disseminate label information deeper into the network. Additionally, batch normalization is employed for layers in the side head, contributing to the overall effectiveness of the architecture.
 
 Convolutional Base: The convolutional base of Inception V3 consists of multiple layers that extract relevant features from input images. It includes convolutional layers arranged hierarchically to learn features at different levels of abstraction. Lower-level layers capture basic features like edges and corners, while higher- level layers identify complex patterns and textures. Pooling layers are used to downsample feature maps and reduce spatial dimensions.
