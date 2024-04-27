@@ -97,3 +97,5 @@ The dataset we collected include images of fire and smoke, as well as non-fire a
 Once the dataset has been cleaned, we used it to train machine learning model to detect fire and smoke. Machine learning algorithm such as convolutional neural networks (CNNs) are commonly used for image recognition tasks, such as fire and smoke detection. It is trained using the cleaned dataset to identify patterns and features that distinguish fire and smoke from non-fire and smoke images. Validation and testing sets have been combined into one. Our dataset largely consists of three classes. Fire, Neutral, and Smoke are them. Each class has approximately 100 images for testing and over 900 images for training.
 
 <img width="371" alt="Screenshot 2024-04-27 215758" src="https://github.com/Abhishek-Raj-Chauhan/Vision-Based-Fire-and-Smoke-Detection-System/assets/100334669/ee85d9c3-9096-4fd8-b4cd-702638eb3b41">
+
+<img width="394" alt="Screenshot 2024-04-27 215905" src="https://github.com/Abhishek-Raj-Chauhan/Vision-Based-Fire-and-Smoke-Detection-System/assets/100334669/d34517c5-393d-4dc1-aef7-6dd5f98e337b">
